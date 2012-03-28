@@ -1,3 +1,9 @@
+Requirements
+============
+
+Django 1.4 - well, why not? I use the new {% static %} template tag. Hack it out if you need < 1.4
+
+
 Installation instructions
 =========================
 
