@@ -1,0 +1,25 @@
+Installation instructions
+=========================
+
+First make sure you have the django-cookiecontrol/cookiecontrol directory on your PYTHONPATH.
+
+In your settings.py, make sure you have at least COOKIECONTROL_COUNTRIES and COOKIECONTROL_PRIVACY_URL set.
+A full list of options is available in the README file.
+
+Then add the application to your INSTALLED_APPS:
+
+    INSTALLED_APPS = (
+        ...
+        'cookiecontrol',
+        ...
+    )
+
+Load the template library with 
+
+    {% load cookiecontrol %}
+
+And put the tag 
+
+    {% cookiecontrol %}
+
+somewhere in your base template's BODY, before you call any other scripts which might want to set cookies.
