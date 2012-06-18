@@ -7,7 +7,11 @@ Django 1.4 - well, why not? I use the new {% static %} template tag. Hack it out
 Installation instructions
 =========================
 
-First make sure you have the django-cookiecontrol/cookiecontrol directory on your PYTHONPATH.
+Go to http://civicuk.com/cookie-law/cookie_configuration_v5 to customise and download the latest version of Cookie Control.
+Put the javascript file in /cookiecontrol/static/cookiecontrol/js/cookieControl.js
+It's not included with this distribution due to having a conflicting license, and you probably want the latest version anyway, right?
+
+Next make sure you have the django-cookiecontrol/cookiecontrol directory on your PYTHONPATH.
 
 In your settings.py, make sure you have at least COOKIECONTROL_COUNTRIES and COOKIECONTROL_PRIVACY_URL set.
 A full list of options is available in the README file.
