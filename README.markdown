@@ -22,9 +22,10 @@ with those methods instead.
 Installation
 ------------
 
-    Go to http://civicuk.com/cookie-law/cookie_configuration_v5 to customise and download the latest version of Cookie Control.
-    Put the javascript file in /cookiecontrol/static/cookiecontrol/js/cookieControl.js
-    It's not included with this distribution due to having a conflicting license, and you probably want the latest version anyway, right?
+Go to http://civicuk.com/cookie-law/cookie_configuration_v5 to customise and download the latest version of Cookie Control.
+Put the javascript file in /cookiecontrol/static/cookiecontrol/js/cookieControl.js
+It's not included with this distribution due to having a conflicting license, and you probably want the latest version anyway, right?
+
 
 Usage
 -----
