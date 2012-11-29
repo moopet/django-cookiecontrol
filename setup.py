@@ -5,7 +5,7 @@ setup(
     version='0.1.0',
     author='Ben Sinclair',
     description='Simple CookieControl wrapper as a Django Reusable Application',
-    long_description=open('README').read(),
+    long_description=open('README.markdown').read(),
     author_email='ben@moopet.net',
     keywords='django cookiecontrol',
     install_requires=['django'],
